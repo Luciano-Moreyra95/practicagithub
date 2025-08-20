@@ -50,4 +50,31 @@ console.log(edad10)
 alert("HOLA SOY UNA ALERTA")
 
 // con el confirm podemos darle a elegir al usuario entre confirmar o rechazar una peticion
-confirm("acepta si queres cookies")
+
+// de esta forma podemos encuestar al usuario y que nos devuelva una respuesta en la consola
+let cookies = confirm("acepta si queres cookies")
+
+console.log(cookies)
+
+
+let comoSePortoElGato = confirm("el gato se porto mal")
+
+console.log(comoSePortoElGato)
+
+// let nombre = prompt("tu nombre")
+
+// console.log(nombre)
+// si a esto le pongo directamente aceptar sin haber escrito Nada, me tira un string
+// pero si le pongo directamente cancelar sin haber escrito Nada, me tira un null
+
+// si le tiro un type of y cancelo me tira object
+
+let nombre = prompt("tu nombre")
+console.log(nombre)
+
+
+// si no definimos la variable, la consola nos tira que no esta definido (UNDEFINED)
+let direccion
+
+console.log(direccion)
+
