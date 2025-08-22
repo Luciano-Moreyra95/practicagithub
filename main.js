@@ -78,3 +78,54 @@ let direccion
 
 console.log(direccion)
 
+// Demo Operadores:
+let edad = 17
+let dinero = false
+
+if(edad >= 18 || dinero) {
+    console.log("Podes ingresar al bar")
+} else {
+    console.log("No podes ingresar")
+}
+
+//AND (&&) = Se tienen que cumplir ambas condiciones para que el resultado sea TRUE
+
+// OR (||) = Se tiene que cumplir aunque sea una de las condiciones para que sea TRUE
+
+
+//CICLOS
+
+// ACTIVIDAD: Tenes que saludar 5 veces con la frase hola mundo
+
+
+// Ciclos por repeticion
+
+// FOR
+for(let i = 0; i < 5; i++) {
+    console.log("Hola Mundo");
+}
+
+for(let i = 0; i < 10; i++) {
+    console.log("Claro que siii maquina")
+}
+
+
+// Ciclos condicionales (REPETIR BLOQUE DE CODIGO SIEMPRE QUE LA CONDICION SEA VERDADERA)
+
+const password = "1234";
+
+let passwordingresado = prompt("ingrese la contraseña")
+
+while(passwordingresado != password){
+    passwordingresado = prompt("ingrese su contraseña")
+}
+
+const contraseña = "tupapa";
+
+let contraseñaingresada = prompt("ingresala contra papurri")
+
+while(contraseñaingresada != contraseña){
+    contraseñaingresada = prompt("incorrecta papu, devuelta la contra")
+}
+
+
