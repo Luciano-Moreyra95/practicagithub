@@ -58,3 +58,24 @@
 
 // numeros.reverse();
 // console.log(numeros);
+
+let arrayObjetos = [];
+
+arrayObjetos.push({
+    id:1, nombre: "producto 1"
+});
+
+arrayObjetos.push({
+    id:2, nombre: "producto 2"
+});
+
+arrayObjetos.push({
+    id:3, nombre: "producto 3"
+});
+
+console.log(arrayObjetos);
+
+for(let objeto of arrayObjetos){
+    console.log(objeto.nombre);
+}
+//en este caso el bucle for of se va a componer de una variable que se llama objeto, la cual va a trabajar dentro de nuestro arrayObjetos. Este objeto va a ser referencia a cada uno de los objetos incorporados dentro de nuestro array, lo que le vamos a estar pidiendo por consola es que ingrese a traves del bucle y nos devuelva en este caso la propiedad nombre. Ahora si nosotros guardamos y refrescamos vamos a ver que lo que va a hacer este bucle es ingresar a cada uno de los objetos y guardamos el nombre de cada uno de los productos. De esta manera estructuramos datos de una manera mucho mas compleja y dinamica
