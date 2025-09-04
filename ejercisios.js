@@ -1,8 +1,36 @@
-const libros = [
-    {titulo: "cien años de soledad", autor: "marquez"},
-    {titulo: "1984", autor: "orwell"},
-    {titulo: "rayuela", autor: "cortazar"},
-]
+// const libros = [
+//     {titulo: "cien años de soledad", autor: "marquez"},
+//     {titulo: "1984", autor: "orwell"},
+//     {titulo: "rayuela", autor: "cortazar"},
+// ]
+
+const libros = []
+
+//para ponerlo de ejemplo, podemos tomarlo como una fabrica de objetos, en el que le asiganos valores a cada uno mediante el constructor + this. En los cuales, a esos valores se los agregamos con cada new
+class Libro{
+    constructor(titulo, autor){
+        this.titulo = titulo
+        this.autor = autor
+    }
+}
+
+
+//al array de libros le vamos a agregar libros con la funcion de abajo + new
+libros.push(new Libro(`cien años de soledad`, `marquez`))
+libros.push(new Libro(`1984`, `orwell`))
+libros.push(new Libro(`rayuela`, `cortazar`))
+
+class Libreria{
+    constructor(libros){
+        this.libros = libros || []
+    }
+
+        buscadorDeLibros(){
+            
+        }
+}
+
+const LibreriaObjeto = new Libreria(libros)
 
 function buscadorDeLibros(){
     let opcion = Number(prompt("Qué criterio quiere utilizar? \n 1- Nombre del libro \n 2- Autor del libro"))
@@ -56,3 +84,5 @@ function buscarAPartirDeAutor(){
 
 
 buscadorDeLibros()
+
+// no lo termine de ver porque basicamente sirve solo lo primero
