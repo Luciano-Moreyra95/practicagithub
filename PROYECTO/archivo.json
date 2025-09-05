@@ -1,0 +1,30 @@
+[
+{
+"id": "b001",
+"name": "Cerveza Dorada 330ml",
+"price": 120.0,
+"image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+"description": "Cerveza ligera, ideal para eventos al aire libre."
+},
+{
+"id": "b002",
+"name": "Radler Limón 350ml",
+"price": 140.0,
+"image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+"description": "Refrescante mix cerveza y limón."
+},
+{
+"id": "b003",
+"name": "Cóctel Ready-to-Drink 500ml",
+"price": 280.0,
+"image": "https://images.unsplash.com/photo-1551022371-8b6f6f9b1b5f?w=800&q=80",
+"description": "Cóctel preparado para servir frío."
+},
+{
+"id": "b004",
+"name": "Agua con gas 500ml",
+"price": 80.0,
+"image": "https://images.unsplash.com/photo-1505576391880-77b42b3f7e6f?w=800&q=80",
+"description": "Alternativa sin alcohol."
+}
+]

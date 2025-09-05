@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Carrito Bebidas - Evento</title>
+
+
+<!-- Librerías externas -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<!-- Estilos locales -->
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="site-header">
+<h1>Weekend Drinks — Carrito para eventos</h1>
+<div id="cart-counter" class="cart-counter">0</div>
+</header>
+
+
+<main class="container">
+<section id="products" class="products-grid" aria-live="polite">
+<!-- Productos cargados por app.js -->
+</section>
+
+
+<aside class="cart-panel">
+<h2>Tu carrito</h2>
+<ul id="cart-list"></ul>
+<div class="cart-footer">
+<div>Total: <span id="cart-total">$0.00</span></div>
+<button id="checkout-btn" class="btn">Finalizar compra</button>
+<button id="clear-btn" class="btn btn-outline">Vaciar carrito</button>
+</div>
+</aside>
+</main>
+
+
+<footer class="site-footer">
+<small>Diseño genérico — estilo bebidas & eventos</small>
+</footer>
+
+
+<script src="./scriptcarr.js" type="module"></script>
+</body>
+</html>
